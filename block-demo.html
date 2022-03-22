@@ -10,14 +10,19 @@
       border: 4px solid blue;
       margin-left: 0;
       margin-bottom: 1em;
-      margin-top:2em
+      margin-top:2em;
+      background-color:orange
     }
 
     p {
-      border: 3px solid green;
+      border: 8px solid green;
       margin: 4em;
-      padding: 2em;
+      padding: 16px;
+      box-shadow: inset 0 0 0 16px lightGreen;
+      /* box-shadow is for setting color for padding.  */
       background-color: yellow;
+      background-clip: content-box;
+      /* background-clip: content-box:this restricts the background only to the content itself */
     }
     .green {
       font-family: Georgia, 'Times New Roman', Times, serif;
